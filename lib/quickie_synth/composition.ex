@@ -7,4 +7,4 @@ defmodule QuickieSynth.Composition do
     spawn(QuickieSynth.Sound, :play, [note])
     :timer.sleep(timing)
   end
-end	
+end
