@@ -19,9 +19,9 @@ defmodule QuickieSynth.UI do
         note = KeyboardMap.note_for("#{key}")
         case note do
           :nomap -> :ok
-          _ -> spawn(Sound, :play, [note])
+            -> spawn(Sound, :play, [note])
         end
-    end
+      end
     loop(window)
   end
 end

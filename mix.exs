@@ -3,9 +3,9 @@ defmodule QuickieSynth.Mixfile do
 
   def project do
     [app: :quickie_synth,
-     version: "0.0.1",
-     elixir: "~> 0.15.2-dev",
-     deps: deps]
+      version: "0.0.1",
+      elixir: "~> 0.15.2-dev",
+      deps: deps]
   end
 
   # Configuration for the OTP application
